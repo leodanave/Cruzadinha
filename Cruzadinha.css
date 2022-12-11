@@ -1,0 +1,89 @@
+/* Definindo background da página */
+body {
+    background-color: rgb(0, 107, 194);
+}
+
+/* Fim background da página */
+
+/* Começo do cabeçalho da página */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(0, 107, 194);
+}
+
+.texto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+/* Fim cabeçalho da página */
+
+/* Começo cruzada */
+.regrasCruzada {
+    background-color: rgb(0, 107, 194);
+}
+
+/* Fim cruzada */
+
+/* Começo cruzadinha */
+.cruzadinha {
+    background-color: white;
+    border-color: gray;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tamanhoInput {
+    width: 10%;
+}
+
+.tabelaBorda {
+    width: 5%;
+    height: 8%;
+    border: 1px solid black;
+}
+
+.quadroPreto {
+    background-color: black;
+}
+
+.centralizar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botaoVerificar {
+    margin-top: 30px;
+    width: 200px;
+    color: #FFFFFF;
+    background-color: #CB6CE6;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.botaoVerificar:hover {
+    border: 2px solid #cb6ce6;
+    box-shadow: white 0px 0px 12px 1px inset,
+                #cb6ce6 0px 0px 12px 1px;
+    border-radius: 5px;
+}
+
+/* Fim cruzadinha */
