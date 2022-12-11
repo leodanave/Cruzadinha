@@ -66,17 +66,17 @@ document.getElementById("dma3").innerHTML="";
 // CS
 document.getElementById("cs2").innerHTML="";
 
-// ADDRESS BUS
-document.getElementById("addressBus1").innerHTML="";
-document.getElementById("addressBus2").innerHTML="";
-document.getElementById("addressBus3").innerHTML="";
-document.getElementById("addressBus4").innerHTML="";
-document.getElementById("addressBus6").innerHTML="";
-document.getElementById("addressBus7").innerHTML="";
-document.getElementById("addressBus8").innerHTML="";
-document.getElementById("addressBus9").innerHTML="";
-document.getElementById("addressBus10").innerHTML="";
-document.getElementById("addressBus11").innerHTML="";
+// ADRESS BUS
+document.getElementById("adressBus1").innerHTML="";
+document.getElementById("adressBus2").innerHTML="";
+document.getElementById("adressBus3").innerHTML="";
+document.getElementById("adressBus4").innerHTML="";
+document.getElementById("adressBus6").innerHTML="";
+document.getElementById("adressBus7").innerHTML="";
+document.getElementById("adressBus8").innerHTML="";
+document.getElementById("adressBus9").innerHTML="";
+document.getElementById("adressBus10").innerHTML="";
+document.getElementById("adressBus11").innerHTML="";
 
 // DATA BUS 
 document.getElementById("dataBus1").innerHTML="";
@@ -182,18 +182,18 @@ function verificar(){
     }else if(resposta == "CS"){
         document.getElementById("cpu1").innerHTML="C";
         document.getElementById("cs2").innerHTML="S";
-    }else if(resposta == "ADDRESS-BUS"){
-        document.getElementById("addressBus1").innerHTML="A";
-        document.getElementById("addressBus2").innerHTML="D";
-        document.getElementById("addressBus3").innerHTML="D";
-        document.getElementById("addressBus4").innerHTML="R";
+    }else if(resposta == "ADRESS-BUS"){
+        document.getElementById("adressBus1").innerHTML="A";
+        document.getElementById("adressBus2").innerHTML="D";
+        document.getElementById("adressBus3").innerHTML="D";
+        document.getElementById("adressBus4").innerHTML="R";
         document.getElementById("registradores2").innerHTML="E";
-        document.getElementById("addressBus6").innerHTML="S";
-        document.getElementById("addressBus7").innerHTML="S";
-        document.getElementById("addressBus8").innerHTML="-";
-        document.getElementById("addressBus9").innerHTML="B";
-        document.getElementById("addressBus10").innerHTML="U";
-        document.getElementById("addressBus11").innerHTML="S";
+        document.getElementById("adressBus6").innerHTML="S";
+        document.getElementById("adressBus7").innerHTML="S";
+        document.getElementById("adressBus8").innerHTML="-";
+        document.getElementById("adressBus9").innerHTML="B";
+        document.getElementById("adressBus10").innerHTML="U";
+        document.getElementById("adressBus11").innerHTML="S";
     }else if(resposta == "DATA-BUS"){
         document.getElementById("dataBus1").innerHTML="D";
         document.getElementById("dataBus2").innerHTML="A";
