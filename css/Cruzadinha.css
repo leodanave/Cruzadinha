@@ -28,13 +28,14 @@ body {
 }
 
 .content h4 {
-    font-size: 100px;
+    font-size: 60px;
     margin-bottom: 2%;
 }
 
 .content p {
     color: black;
     width: 70%;
+    font-size: 15px;
 }
 
 .content img {
